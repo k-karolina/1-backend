@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 app = Flask(__name__)
 
+
 databaza = {
     "students": [
         {
@@ -175,7 +176,7 @@ databaza = {
 
 @app.route("/")
 def home():
-    return "Ahoj!"
+    return "Vitaj!"
 
 
 @app.route("/api")
