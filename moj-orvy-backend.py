@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-
 app = Flask(__name__)
 
 databaza = {
@@ -9,6 +8,7 @@ databaza = {
             "name": "Daniel",
             "surname": "Barta",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -16,6 +16,7 @@ databaza = {
             "name": "Matúš",
             "surname": "Bucko",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -23,6 +24,7 @@ databaza = {
             "name": "Adrian",
             "surname": "Červenka",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -30,6 +32,7 @@ databaza = {
             "name": "Martin",
             "surname": "Deglovič",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -37,6 +40,7 @@ databaza = {
             "name": "Samuel",
             "surname": "Haring",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -44,6 +48,7 @@ databaza = {
             "name": "Matúš",
             "surname": "Holečka",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -51,6 +56,7 @@ databaza = {
             "name": "Martin",
             "surname": "Jelínek",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -58,12 +64,14 @@ databaza = {
             "name": "Tomáš",
             "surname": "Jurčák",
             "nickname": "unknown",
+            "image": None,
         },
         {
             "id": 9,
             "name": "Karolína",
             "surname": "Kmeťová",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -71,6 +79,7 @@ databaza = {
             "name": "Milan",
             "surname": "Kokina",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -78,6 +87,7 @@ databaza = {
             "name": "Milan",
             "surname": "Kokina",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -85,6 +95,7 @@ databaza = {
             "name": "Patrik",
             "surname": "Korba",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -92,6 +103,7 @@ databaza = {
             "name": "Marcus",
             "surname": "Martiš",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -99,6 +111,7 @@ databaza = {
             "name": "Samuel",
             "surname": "Martiš",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -106,6 +119,7 @@ databaza = {
             "name": "Marko",
             "surname": "Mihalička",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -113,6 +127,7 @@ databaza = {
             "name": "Rastislav",
             "surname": "Paták",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -120,6 +135,7 @@ databaza = {
             "name": "Matej",
             "surname": "Randziak",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -127,6 +143,7 @@ databaza = {
             "name": "Dávid",
             "surname": "Škula",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -134,6 +151,7 @@ databaza = {
             "name": "Samuel",
             "surname": "Uhrík",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -141,6 +159,7 @@ databaza = {
             "name": "Janka",
             "surname": "Vargová",
             "nickname": "unknown",
+            "image": None,
         },
         {
 
@@ -148,9 +167,16 @@ databaza = {
             "name": "Lukáš",
             "surname": "Vindiš",
             "nickname": "unknown",
+            "image": None,
         }
     ]
 }
+
+
+@app.route("/")
+def home():
+    return "Ahoj!"
+
 
 @app.route("/api")
 def api():
