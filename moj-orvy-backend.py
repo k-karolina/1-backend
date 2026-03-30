@@ -76,14 +76,6 @@ databaza = {
         },
         {
 
-            "id": 9,
-            "name": "Milan",
-            "surname": "Kokina",
-            "nickname": "unknown",
-            "image": None,
-        },
-        {
-
             "id": 10,
             "name": "Milan",
             "surname": "Kokina",
@@ -177,6 +169,9 @@ databaza = {
 @app.route("/")
 def home():
     return "Vitaj!"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000, debug=True)
 
 
 @app.route("/api")

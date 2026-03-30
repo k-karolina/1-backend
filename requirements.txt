@@ -1,2 +1,1 @@
-from flask import Flask, jsonify, request
-app = Flask(__name__)
+Flask==3.0.0
