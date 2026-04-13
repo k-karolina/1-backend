@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Študenti</h1>
+<ul id="list"></ul>
+
+<script>
+fetch("http://localhost:8000/api")
+  .then(res => res.json())
+  .then(data => {
+    const list = document.getElementById("list");
+    data.students.forEach(s => {
+      const li = document.createElement("li");
+      li.textContent = s.name + " " + s.surname;
+      list.appendChild(li);
+    });
+  });
+</script>
+
+</body>
+</html>
