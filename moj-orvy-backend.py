@@ -68,15 +68,8 @@ databaza = {
             "image": None,
         },
         {
-            "id": 9,
-            "name": "Karolína",
-            "surname": "Kmeťová",
-            "nickname": "unknown",
-            "image": None,
-        },
-        {
 
-            "id": 10,
+            "id": 9,
             "name": "Milan",
             "surname": "Kokina",
             "nickname": "unknown",
@@ -84,7 +77,7 @@ databaza = {
         },
         {
 
-            "id": 11,
+            "id": 10,
             "name": "Patrik",
             "surname": "Korba",
             "nickname": "unknown",
@@ -92,7 +85,7 @@ databaza = {
         },
         {
 
-            "id": 12,
+            "id": 11,
             "name": "Marcus",
             "surname": "Martiš",
             "nickname": "unknown",
@@ -100,7 +93,7 @@ databaza = {
         },
         {
 
-            "id": 13,
+            "id": 12,
             "name": "Samuel",
             "surname": "Martiš",
             "nickname": "unknown",
@@ -108,7 +101,7 @@ databaza = {
         },
         {
 
-            "id": 14,
+            "id": 13,
             "name": "Marko",
             "surname": "Mihalička",
             "nickname": "unknown",
@@ -116,7 +109,7 @@ databaza = {
         },
         {
 
-            "id": 15,
+            "id": 14,
             "name": "Rastislav",
             "surname": "Paták",
             "nickname": "unknown",
@@ -124,7 +117,7 @@ databaza = {
         },
         {
 
-            "id": 16,
+            "id": 15,
             "name": "Matej",
             "surname": "Randziak",
             "nickname": "unknown",
@@ -132,7 +125,7 @@ databaza = {
         },
         {
 
-            "id": 17,
+            "id": 16,
             "name": "Dávid",
             "surname": "Škula",
             "nickname": "unknown",
@@ -140,7 +133,7 @@ databaza = {
         },
         {
 
-            "id": 18,
+            "id": 17,
             "name": "Samuel",
             "surname": "Uhrík",
             "nickname": "unknown",
@@ -148,7 +141,7 @@ databaza = {
         },
         {
 
-            "id": 19,
+            "id": 18,
             "name": "Janka",
             "surname": "Vargová",
             "nickname": "unknown",
@@ -156,7 +149,7 @@ databaza = {
         },
         {
 
-            "id": 20,
+            "id": 19,
             "name": "Lukáš",
             "surname": "Vindiš",
             "nickname": "unknown",
